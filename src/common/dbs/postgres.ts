@@ -44,6 +44,8 @@ export function getDB(project: string) {
       idle: 60000,
     },
 
+    query:{raw:true},
+
     dialectOptions: {
       decimalNumbers: true,
       maxPreparedStatements: 100,
